@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <style>
+            body {
+               
+                font-family: 'Nunito', sans-serif;
+                background-color:white;
+                background-blend-mode: overlay;
+                text-decoration-color: whitesmoke;
+            } 
+            .blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    background-color: #7C99B4; /* Set the color you want the cell to blink */
+  }
+}
+            </style>
+            <link href="https://fonts.gstatic.com" rel="preconnect">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+            <!--Icons-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <title>Results</title>
+    </head>
+   <body>
+<h1 style="background-color:#6F73D2;"class="p-3 mb-2 text-white text-center">Audify Results</h1>
+{% if predicted_class %}
+    <p style="color: #6F73D2;font-size: 30px;font-family: 'Nunito', sans-serif ;text-align:center;text-decoration-style: wavy;">Predicted Class by the Model: {{ predicted_class }}</p>
+{% endif %}
+
+{% if classes %}
+  <table style="font-family: 'Nunito', sans-serif; border-collapse: collapse; margin: auto; margin-top: 20px;">
+    <tr>
+      <th style="border: 1px solid black;background-color: #6F73D2; color:white; padding: 5px;">Index</th>
+      <th style="border: 1px solid black; background-color: #6F73D2;color:white;padding: 5px;">Class Name</th>
+    </tr>
+    {% for i in range(classes|length) %}
+      <tr{% if predicted_class == classes[i] %} class="blink" style="background-color: #63D471; color: white;"{% endif %}>
+        <td style="border: 1px solid black; padding: 5px;">{{ i }}</td>
+        <td style="border: 1px solid black; padding: 5px;">{{ classes[i] }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endif %}
+
+   </body>
+</html>
