@@ -1,4 +1,4 @@
-# ML_AUDIO_CLASSIFICATION_PROJECT
+# Audify- The Audio Classifier
 
 The report
 
