@@ -1,4 +1,8 @@
 # Audify- The Audio Classifier
 
-The report
+# Table of Contents
 
+# Project Description
+## What the project does?
+## Tech Stack used
+## Images and Screenshots of the project
