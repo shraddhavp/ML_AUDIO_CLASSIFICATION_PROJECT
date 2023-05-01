@@ -55,6 +55,31 @@ the last layer is another dense layer with the number of output classes (10) neu
 
 ![WhatsApp Image 2023-04-30 at 20 47 56](https://user-images.githubusercontent.com/122106180/235361081-3d88c2db-1816-4044-a035-46c8ccf61edd.jpg)
 
-## What the project does?
+### Training the Model
 
-## Images and Screenshots of the project
+We have trained the model for 100 epoch with the batch size of 50
+
+![WhatsApp Image 2023-05-01 at 12 12 19](https://user-images.githubusercontent.com/122106180/235418198-46b0dcec-f449-40dd-9fbb-af83e9052894.jpg)
+
+### Result
+
+From training and test the model we obtained the accuracy of
+
+![WhatsApp Image 2023-05-01 at 12 20 47](https://user-images.githubusercontent.com/122106180/235419127-4bfa0064-652f-4be2-8c12-9a10295d58f6.jpg)
+
+### Comparison with previous works
+The following paper : Salamon, Justin, Christopher Jacoby, and Juan Pablo Bello. "A dataset and taxonomy for urban sound research." Proceedings of the 22nd ACM international conference on Multimedia. 2014.
+
+https://dl.acm.org/doi/abs/10.1145/2647868.2655045?casa_token=KZ5YCFni-awAAAAA:YhQaGFXGPK7gC9dKi8UAXB2Siyi4duOrxjLGWJ6lahqxqQUsi47m6SG4BlwRbW3PcWGtmSWCVyDVag
+
+The research paper comes to conclusion with the use of SVM and Random Forest model having high accuracy of approximately 73%, From the Neural Network Architecture we used in the project we got a improved accuracy of 83.81 % and 78.28 % for training and testing respectively.
+
+## Front End of the Project
+
+We used Flask web frame work of python for the front end and pickle module for the loading the model.
+
+![WhatsApp Image 2023-05-01 at 13 17 55](https://user-images.githubusercontent.com/122106180/235424892-afb0c7a4-37f7-4272-b960-751787fc7f0f.jpg)
+
+By uploading the sample audio file, the model classifies the sample and give this result in result page by highlighting predicted class.
+
+![WhatsApp Image 2023-05-01 at 13 20 16](https://user-images.githubusercontent.com/122106180/235425135-f5cd1923-a1b9-4137-b393-c1e3e9f2c9f1.jpg)
