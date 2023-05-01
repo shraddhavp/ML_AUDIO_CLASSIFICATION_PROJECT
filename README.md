@@ -3,7 +3,7 @@
 ## Table of Contents
 
 ## Dataset Link
-https://www.kaggle.com/datasets/chrisfilo/urbansound8k 
+[Link to dataset](https://www.kaggle.com/datasets/chrisfilo/urbansound8k)
 
 The dataset consist of 8732 audio files  in WAV format, 
 the dataset includes 10 low level classes and number of files respectively
@@ -70,7 +70,7 @@ From training and test the model we obtained the accuracy of
 ### Comparison with previous works
 The following paper : Salamon, Justin, Christopher Jacoby, and Juan Pablo Bello. "A dataset and taxonomy for urban sound research." Proceedings of the 22nd ACM international conference on Multimedia. 2014.
 
-https://dl.acm.org/doi/abs/10.1145/2647868.2655045?casa_token=KZ5YCFni-awAAAAA:YhQaGFXGPK7gC9dKi8UAXB2Siyi4duOrxjLGWJ6lahqxqQUsi47m6SG4BlwRbW3PcWGtmSWCVyDVag
+[Link to paper](https://dl.acm.org/doi/abs/10.1145/2647868.2655045?casa_token=KZ5YCFni-awAAAAA:YhQaGFXGPK7gC9dKi8UAXB2Siyi4duOrxjLGWJ6lahqxqQUsi47m6SG4BlwRbW3PcWGtmSWCVyDVag)
 
 The research paper comes to conclusion with the use of SVM and Random Forest model having high accuracy of approximately 73%, From the Neural Network Architecture we used in the project we got a improved accuracy of 83.81 % and 78.28 % for training and testing respectively.
 
