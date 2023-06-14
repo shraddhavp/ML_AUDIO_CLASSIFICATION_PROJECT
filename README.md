@@ -7,7 +7,7 @@ Audify - An Audio Classification project built by a Deep neural Network model th
 Why is Audify Unique? How does it help real world?
 
 Sound monitoring -> By accurately classifying urban sounds, such as car horns, sirens, and jackhammers, the audio classification model can be used in real-time sound monitoring applications. It can assist city planners, environmental agencies, and policymakers in understanding noise patterns, identifying areas with excessive noise levels, and implementing measures to mitigate noise pollution.
-Public Safety and Security - Ability to classify audio signals in real time can contribute to public safety and security. For example, the audio classification model can be integrated into surveillance systems to automatically detect and recognize critical sounds like gunshots or alarms.
+Public Safety and Security -> Ability to classify audio signals in real time can contribute to public safety and security. For example, the audio classification model can be integrated into surveillance systems to automatically detect and recognize critical sounds like gunshots or alarms.
 
 
 ## Table of Contents
