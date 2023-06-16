@@ -2,7 +2,7 @@
 
 What is Audify?
 
-Audify - An Audio Classification project built by a Deep neural Network model that accuartely categorized audio samples based on thier content.
+Audify - An Audio Classification project built by a Aritificial Neural Network model that accuartely categorized audio samples based on thier content.
 
 Why is Audify Unique? How does it help real world?
 
