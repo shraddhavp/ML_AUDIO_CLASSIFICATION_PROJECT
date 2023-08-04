@@ -34,7 +34,7 @@ the dataset includes 10 low-level classes and a number of files respectively
 - Flask
 - Pickle
 
-## The project has main topics :
+## The project's main topics includes :
 
 - Audio preprocessing
 - Audio classification
